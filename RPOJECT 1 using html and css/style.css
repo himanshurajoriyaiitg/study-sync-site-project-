@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+body{
+    height: auto;
+    width: 100vw;
+    background-color: snow;
+   
+    
+
+}
+#logoimg{
+    height: 4rem;
+    width: 4rem;
+}
+.headercontent a{
+    text-decoration: none;
+
+} 
+.headercontent{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: auto;
+}
+.headercontent span{
+    color: rgb(42, 32, 52);
+    font-weight: bolder;
+  
+}
+
+#logotext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navclass a{
+    font-size: .7rem;
+    font-weight: bolder;
+    color: rgb(110, 102, 140);
+  
+}
+.navclass a:hover{
+    color: rgb(41, 41, 153);
+    transform: scale(1.1);
+}
+.navclass{
+       display: flex;
+       gap: 15px;
+}
+
+#contact{
+    background-color: rgb(51, 51, 133);
+    border-radius: 5px;
+    font: bold;
+    color: white;
+    border: solid rgb(35, 35, 139),1px;
+    font-size: .5rem;
+    height: 1.3rem;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroimg{
+    height:250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;  
+    transition: 0.3s  cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    
+}
+#heroimg:hover{
+    transform: scale(1.025);
+}
+.herosection .content{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: center;
+}
+.herosection{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: rgb(75, 38, 210);
+}
+.contentleft{
+    margin-top: 2rem;
+}
+#p2{
+    font-size: 2rem;
+   
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 20px;
+    
+}
+#p3{
+    font-size: .8rem;
+    margin-top: 10px;
+}
+.lowercontent a {
+
+
+    text-decoration: none;
+    border: solid blue 1px;
+    background-color: rgb(79, 79, 206);
+    color: white;
+    font-size: .6rem;
+    font-weight: bolder;
+   padding: 5px;
+   border-radius: 5px;
+  
+}
+#taketour{
+    margin-left:15px;
+    background-color: rgb(86, 55, 55);
+}
+.lowercontent{
+    margin-top: 15px;
+}
+.box2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1rem;
+    flex-direction: column;
+
+}
+.layer1{
+    display: flex;
+    gap: 20px;
+    border: black solid .1px;
+    background-color: rgb(229, 229, 229);
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+.layercontent{
+    display: flex;
+    align-items: center;
+    font-size: .5rem;
+    color: rgb(110, 107, 107);
+    font-weight: 900;
+    
+    
+}
+.layercontent img{
+    height: 15px;
+    width: 15px;
+}
+
+.upperpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+#himanshu{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#cardpara{
+    font-size: .7rem;
+    font-weight: 500;
+    color: rgb(171, 165, 165);
+    max-width:600px ;
+     text-align:center ;
+     margin-top: 10px;
+}
+.card{
+    
+    height: 120px;
+    width: 220px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+.lowersection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+    max-width: 600px;
+}
+.lowercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+#insidecard1{
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 8px; 
+}
+#insidecard2{
+    font-size: .5rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 8px;
+}
+#card1{
+    background-color:rgba(60, 60, 231, 0.815) ;
+}
+#card2{
+    background-color:rgba(233, 102, 102, 0.846) ;
+}
+#card3{
+    background-color:rgba(192, 204, 62, 0.815) ;
+}
+#card4{
+    background-color:rgba(57, 104, 62, 0.815) ;
+}
+#card5{
+    background-color:rgba(231, 100, 60, 0.815) ;
+}
+#card6{
+    background-color:rgba(38, 182, 131, 0.815) ;
+}
+.card:hover{
+    transform:scale(1.05);
+}
+.cardsection{
+    background-color: rgb(229, 229, 229);
+  padding-top: 1px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+.testcontainer{
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.testcontent{
+    max-width: 700px;
+
+}
+#preview{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top:20px;
+}
+.reviewcard img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.reviewcard{
+    border: black solid .1px;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(222, 229, 229);
+    
+    
+   
+}
+.reviewcard:hover{
+    transform: scale(1.012);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.reviewcardcontainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+#reviewcardpara{
+    font-size: .7rem;
+    color: rgb(87, 85, 85);
+    text-align: center;
+    font-weight: 600;
+}
+#name{
+    font-size: .9rem;
+    font-family: cursive;
+    font-weight: 900;
+    color: rgb(33, 136, 177);
+}
+#namepost{
+    font-size: .4rem;
+    color: rgb(162, 161, 161);
+    font-weight: 800;
+}
+.newscontent{
+    display: flex;   
+    max-width: 700px;
+    margin-top: 30px;
+}
+.newsleft img{
+    height: 200px;
+    width: 350px;
+}
+.newscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#updates{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(47, 47, 209);
+}
+.newsright{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    width:350px;
+}
+#signup{
+    font-size: .7rem;
+    color:rgb(95, 90, 90);
+}
+.div2{
+    margin-top: 20px;
+}
+#terms{
+    font-size: .4rem;
+    color: rgb(72, 71, 71);
+    margin-top: 10px;
+
+}
+.div2 button{
+    background-color: rgb(40, 40, 136);
+    color: white;
+    border-radius: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.footercontent{
+   width:700px ;
+    display: flex;
+    
+
+}
+.footercontainer{
+    display: flex;
+    justify-content: center;
+}
+.contentright{
+    height: 200px;
+    width: 80%;
+  
+}
+.contentleft .logo {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    align-items: center;
+    margin-left: -10px;
+}
+#logoimg00{
+    height: 40px ;
+    width: 40px;
+}
+.footernote{
+    font-size: .6rem;
+    color: rgb(88, 86, 86);
+    font-weight: 600;
+}
+.logo img{
+    height: 20px;
+    width: 20px;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+.contentright{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+ } 
+.contentright ul{
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     
+}
+.contentright ul li a {
+    text-decoration: none;
+    font-size: .5rem;
+    font-weight: 800;
+    color: rgb(86, 84, 84);
+
+}
+.contentright ul li a:hover{
+    color: rgb(68, 68, 179);
+   transform: scale(1.5);
+}
+#headitem{
+         font-size: .9rem;
+         font-weight: 800;
+         color: black ;
+}
+.copyrightsection{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(224, 221, 221);
+    align-items: center;
+    font-size: .5rem;
+    font-weight: 600;
+    color: rgb(85, 78, 78);
+}
